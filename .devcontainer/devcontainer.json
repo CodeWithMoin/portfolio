@@ -23,19 +23,31 @@
         "esbenp.prettier-vscode",
         "GitHub.copilot",
         "ms-vscode.azure-account",
-        "ms-azuretools.vscode-azurestaticwebapps"
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "oderwat.indent-rainbow"
       ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true, 
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "eslint.alwaysShowStatus": true,
+        "eslint.format.enable": true,
+        "eslint.lintTask.enable": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "prettier.singleQuote": true
       }
     }
   },
 
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {}
   },
 
